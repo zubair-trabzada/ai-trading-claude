@@ -33,23 +33,20 @@
   <line x1="450" y1="0" x2="450" y2="320" stroke="#1a2040" stroke-width="0.5"/>
   <line x1="700" y1="0" x2="700" y2="320" stroke="#1a2040" stroke-width="0.5"/>
 
-  <!-- Upward trending chart line (background element) -->
-  <polyline points="500,260 540,245 580,250 620,230 660,235 700,210 740,195 780,180 820,150 860,120"
-            stroke="url(#chartLine)" stroke-width="2.5" fill="none" filter="url(#glow)" opacity="0.7"/>
+  <!-- Upward trending chart line (background element — right side only) -->
+  <polyline points="620,180 660,170 700,175 740,155 770,140 800,125 830,100 860,70"
+            stroke="url(#chartLine)" stroke-width="2.5" fill="none" filter="url(#glow)" opacity="0.6"/>
   <!-- Chart area fill -->
-  <polygon points="500,260 540,245 580,250 620,230 660,235 700,210 740,195 780,180 820,150 860,120 860,280 500,280"
+  <polygon points="620,180 660,170 700,175 740,155 770,140 800,125 830,100 860,70 860,190 620,190"
            fill="#00c853" opacity="0.04"/>
 
-  <!-- Candlestick hints -->
-  <rect x="520" y="238" width="6" height="18" rx="1" fill="#00c853" opacity="0.3"/>
-  <rect x="555" y="242" width="6" height="12" rx="1" fill="#ff1744" opacity="0.25"/>
-  <rect x="590" y="235" width="6" height="20" rx="1" fill="#00c853" opacity="0.3"/>
-  <rect x="635" y="225" width="6" height="16" rx="1" fill="#00c853" opacity="0.3"/>
-  <rect x="670" y="205" width="6" height="18" rx="1" fill="#ff1744" opacity="0.25"/>
-  <rect x="710" y="188" width="6" height="22" rx="1" fill="#00c853" opacity="0.3"/>
-  <rect x="750" y="170" width="6" height="18" rx="1" fill="#00c853" opacity="0.35"/>
-  <rect x="790" y="145" width="6" height="24" rx="1" fill="#00c853" opacity="0.35"/>
-  <rect x="830" y="115" width="6" height="20" rx="1" fill="#00c853" opacity="0.4"/>
+  <!-- Candlestick hints (right side, above text) -->
+  <rect x="640" y="165" width="5" height="14" rx="1" fill="#00c853" opacity="0.25"/>
+  <rect x="675" y="162" width="5" height="10" rx="1" fill="#ff1744" opacity="0.2"/>
+  <rect x="715" y="150" width="5" height="16" rx="1" fill="#00c853" opacity="0.25"/>
+  <rect x="755" y="135" width="5" height="14" rx="1" fill="#00c853" opacity="0.3"/>
+  <rect x="790" y="118" width="5" height="18" rx="1" fill="#00c853" opacity="0.3"/>
+  <rect x="825" y="92" width="5" height="20" rx="1" fill="#00c853" opacity="0.35"/>
 
   <!-- Top accent line -->
   <rect x="40" y="40" width="140" height="4" rx="2" fill="url(#accent)"/>
