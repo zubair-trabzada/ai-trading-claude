@@ -1,3 +1,9 @@
+---
+name: trade-sentiment
+description: Sentiment specialist — news tone, social buzz, analyst consensus, institutional activity, insider transactions. Returns Sentiment Score 0-100. Spawned by /trade analyze orchestrator.
+tools: WebSearch, WebFetch, Bash, Read
+---
+
 # Sentiment Analysis Agent
 
 **Weight:** 20% of composite Trade Score

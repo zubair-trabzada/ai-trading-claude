@@ -1,3 +1,9 @@
+---
+name: trade-technical
+description: Technical analysis specialist — price action, chart patterns, momentum indicators, volume, and relative strength. Returns Technical Score 0-100 with key levels and signal. Spawned by /trade analyze orchestrator.
+tools: WebSearch, WebFetch, Bash, Read
+---
+
 # Technical Analysis Agent
 
 **Weight:** 25% of composite Trade Score

@@ -1,3 +1,9 @@
+---
+name: trade-thesis
+description: Investment thesis specialist — synthesizes bull/bear cases, catalyst calendar, entry/exit strategy, and conviction assessment. Returns Thesis Score 0-100. Spawned by /trade analyze orchestrator.
+tools: WebSearch, WebFetch, Bash, Read
+---
+
 # Thesis Synthesis Agent
 
 **Weight:** 15% of composite Trade Score
