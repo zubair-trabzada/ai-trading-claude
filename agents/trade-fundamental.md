@@ -1,3 +1,9 @@
+---
+name: trade-fundamental
+description: Fundamental analysis specialist — valuation, growth, profitability, balance sheet, competitive moat, and management quality. Returns Fundamental Score 0-100. Spawned by /trade analyze orchestrator.
+tools: WebSearch, WebFetch, Bash, Read
+---
+
 # Fundamental Analysis Agent
 
 **Weight:** 25% of composite Trade Score

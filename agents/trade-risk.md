@@ -1,3 +1,9 @@
+---
+name: trade-risk
+description: Risk assessment specialist — volatility, drawdown, correlation, liquidity, position sizing. Returns Risk Score 0-100 (higher = LOWER risk). Spawned by /trade analyze orchestrator.
+tools: WebSearch, WebFetch, Bash, Read
+---
+
 # Risk Assessment Agent
 
 **Weight:** 15% of composite Trade Score
